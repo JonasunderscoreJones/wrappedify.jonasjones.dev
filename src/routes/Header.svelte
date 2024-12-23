@@ -35,11 +35,11 @@
 <header class="blurred-background">
 	<nav>
 	  <a
-		href="/#home"
-		class="nav-link"
+		href="/#wrappedify"
+		class="nav-link wrappedify-link"
 		bind:this={homeLink}
 		on:click={() => setActiveLink(homeLink)}
-		>Home</a
+		>Wrappedify</a
 	  >
 	  <a
 		href="/#about"
@@ -103,4 +103,16 @@
 	  background-color: white;
 	  transition: width 0.3s ease, left 0.3s ease;
 	}
-  </style>
+
+	.wrappedify-link {
+		/* Border */
+		border: 4px solid transparent;
+		border-radius: 20px;
+		background:
+			linear-gradient(to right, black, black),
+			linear-gradient(45deg, #FABA00 , #FA7300, #007FFA, #3D5C7A);
+		background-clip: padding-box, border-box;
+		background-origin: padding-box, border-box;
+		padding: 5px;
+	}
+</style>
