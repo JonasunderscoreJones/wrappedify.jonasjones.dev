@@ -56,11 +56,11 @@
         display: flex;
         align-items: center;
         color: gray;
+        text-decoration: none;
     }
 
     .footer-left a:hover, .footer-right a:hover {
         color: lightgray;
-        text-decoration: none;
     }
 
     .footer-right {
