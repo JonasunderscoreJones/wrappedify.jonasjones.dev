@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Wrappedify</title>
+	<meta name="Wrappedify" content="Wrappedify" />
 </svelte:head>
 
 <script>
@@ -26,14 +26,6 @@
 	section {
 	  padding: 100px;
 	  height: 100vh;
-	}
-
-	#home {
-	  background-color: lightblue;
-	}
-
-	#about {
-	  background-color: lightgreen;
 	}
   </style>
 
