@@ -101,6 +101,7 @@
 	  width: 0;
 	  height: 2px;
 	  background-color: white;
+	  border-radius: 3px;
 	  transition: width 0.3s ease, left 0.3s ease;
 	}
 
