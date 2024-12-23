@@ -35,14 +35,14 @@
 <header>
 	<nav>
 	  <a
-		href="/"
+		href="/#home"
 		class="nav-link"
 		bind:this={homeLink}
 		on:click={() => setActiveLink(homeLink)}
 		>Home</a
 	  >
 	  <a
-		href="/"
+		href="/#about"
 		class="nav-link"
 		bind:this={aboutLink}
 		on:click={() => setActiveLink(aboutLink)}
