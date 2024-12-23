@@ -25,7 +25,7 @@
 <style>
 	section {
 		padding: 100px;
-		height: 100vh;
+		min-height: 50vh;
 		/* center the content */
 		display: flex;
 		flex-direction: column;
@@ -37,6 +37,10 @@
 
 <section id="wrappedify" bind:this={homeSection}>
 	<h1>Wrapped</h1>
+</section>
+
+<section id="statistics" bind:this={homeSection}>
+	<h1>Statistics</h1>
 </section>
 
 <section id="about" bind:this={aboutSection}>

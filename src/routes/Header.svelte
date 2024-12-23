@@ -42,8 +42,15 @@
 		>Wrappedify</a
 	  >
 	  <a
+		href="/#statistics"
+		class="nav-link statistics-link"
+		bind:this={statsLink}
+		on:click={() => setActiveLink(statsLink)}
+		>Statistics</a
+	  >
+	  <a
 		href="/#about"
-		class="nav-link"
+		class="nav-link about-link"
 		bind:this={aboutLink}
 		on:click={() => setActiveLink(aboutLink)}
 		>About</a
@@ -87,7 +94,7 @@
 	  text-decoration: none;
 	  font-size: 18px;
 	  position: relative;
-	  padding: 5px 0;
+	  padding: 5px;
 	}
 
 	.nav-link:hover {
@@ -114,6 +121,27 @@
 			linear-gradient(45deg, #FABA00 , #FA7300, #007FFA, #3D5C7A);
 		background-clip: padding-box, border-box;
 		background-origin: padding-box, border-box;
-		padding: 5px;
+	}
+
+	.statistics-link {
+		/* Border */
+		border: 4px solid transparent;
+		border-radius: 20px;
+		background:
+			linear-gradient(to right, black, black),
+			linear-gradient(45deg, #2AB4F5 , #2A34F5, #2974F5, #2AF4F5, #612AF5, #7BA8F5);
+		background-clip: padding-box, border-box;
+		background-origin: padding-box, border-box;
+	}
+
+	.about-link {
+		/* Border */
+		border: 4px solid transparent;
+		border-radius: 20px;
+		background:
+			linear-gradient(to right, black, black),
+			linear-gradient(45deg, white, white);
+		background-clip: padding-box, border-box;
+		background-origin: padding-box, border-box;
 	}
 </style>
