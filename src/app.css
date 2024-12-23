@@ -19,6 +19,7 @@ html {
 	background-attachment: fixed;  /* Ensures the background doesn't scroll */
 	background-size: cover;
 	animation: gradientShift 10s ease infinite;
+	color: white;
 }
 
 @keyframes gradientShift {
