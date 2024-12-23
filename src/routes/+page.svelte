@@ -20,19 +20,25 @@
 		})
 	  );
 	});
-  </script>
+</script>
 
-  <style>
+<style>
 	section {
-	  padding: 100px;
-	  height: 100vh;
+		padding: 100px;
+		height: 100vh;
+		/* center the content */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
-  </style>
+</style>
 
-  <section id="home" bind:this={homeSection}>
-	<h1>Home</h1>
-  </section>
+<h2>More Data. More Stories. More You. - Wrappedify</h2>
 
-  <section id="about" bind:this={aboutSection}>
+<section id="wrappedify" bind:this={homeSection}>
+	<h1>Wrapped</h1>
+</section>
+
+<section id="about" bind:this={aboutSection}>
 	<h1>About</h1>
-  </section>
+</section>
