@@ -80,7 +80,7 @@
         font-size: 15px;
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
         .footer-left, .footer-right {
             display: none;
         }
