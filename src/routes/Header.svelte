@@ -32,7 +32,7 @@
 	});
 </script>
 
-<header>
+<header class="blurred-background">
 	<nav>
 	  <a
 		href="/#home"
@@ -64,8 +64,18 @@
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
-	  height: 60px;
+	  height: 20px;
 	}
+
+	.blurred-background {
+		background-color: rgba(0, 0, 0, 0.4); /* Translucent dark background */
+		backdrop-filter: blur(10px); /* Blur the background */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		text-align: center;
+  	}
 
 	nav {
 	  display: flex;
