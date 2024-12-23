@@ -6,6 +6,7 @@
   }
 
 html {
+	padding-top: 150px;
 	font-family: 'Orbitron-Bold', sans-serif;
 	background: linear-gradient(45deg,
 		#F14000,
@@ -32,8 +33,7 @@ html {
 	}
 }
 
-body {
-	margin-top: 150px;
+main {
 	min-height: 100vh;
 	/* center the content */
 	display: flex;
