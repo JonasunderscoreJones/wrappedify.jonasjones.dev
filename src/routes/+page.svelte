@@ -4,6 +4,7 @@
 </svelte:head>
 
 <script>
+	import WrappedPreviews from "$lib/components/WrappedPreviews.svelte";
 	import { onMount } from "svelte";
 
 	let homeSection;
@@ -25,7 +26,6 @@
 <style>
 	section {
 		padding: 100px;
-		min-height: 50vh;
 		/* center the content */
 		display: flex;
 		flex-direction: column;
@@ -37,6 +37,8 @@
 
 <section id="wrappedify" bind:this={homeSection}>
 	<h1>Wrapped</h1>
+	<WrappedPreviews />
+	<p>View the classic Spotify Wrapped (short version) or the extended one, compiled with a couple extra stats!</p>
 </section>
 
 <section id="statistics" bind:this={homeSection}>
